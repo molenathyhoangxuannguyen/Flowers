@@ -1,0 +1,11 @@
+thy = input()
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("red")
+thuy = turtle.Turtle()
+if thy == "a" :
+    thuy.forward(100)
+else:
+    thuy.right(100)
+    thuy.forward(100)
+wn.exitonclick()
