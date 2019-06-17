@@ -1,8 +1,9 @@
 thy = input()
 import turtle
 wn = turtle.Screen()
-wn.bgcolor("blue")
+wn.bgcolor("#E0FFFF")
 thuy = turtle.Turtle()
+thuy.color("blue")
 if thy == "a" :
     thuy.forward(100)
 else:
