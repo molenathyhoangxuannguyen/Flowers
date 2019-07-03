@@ -4,9 +4,9 @@ wn = turtle.Screen()
 wn.bgcolor("#E0FFFF")
 thuy = turtle.Turtle()
 thuy.color("blue")
-if type(thy) == "<class 'str'>":
+if type(thy) == str and thy =="a":
     thuy.forward(100)
-elif (type(thy))== "<class 'str'>" and thy != "a":
+elif type(thy) == str and thy != "a":
     thuy.right(100)
     thuy.forward(100)
 else:
