@@ -1,3 +1,5 @@
+#Author: Thy H. Nguyen
+
 thy = input()
 # This is the place for user to input anything (a string, a number, or a boolean)
 import turtle
